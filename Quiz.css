@@ -1,0 +1,56 @@
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px 25px;
+}
+
+.container hr {
+    border: none;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container h2 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 12px 35px;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 18px;
+}
+
+.container button {
+    background-color: tomato;
+    width: 120px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 12px 40px !important;
+    border: none;
+    margin: auto;
+}
+
+.container .index {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.container .correct {
+    background-color: rgba(36, 108, 32, 0.401);
+}
+
+.container .wrong {
+    background-color: rgba(248, 52, 52, 0.383);
+}
